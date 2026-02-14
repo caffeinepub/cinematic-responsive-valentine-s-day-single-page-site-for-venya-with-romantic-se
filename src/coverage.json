@@ -1,0 +1,37 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-14T05:44:09.328Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-15",
+        "summary": "Update the configured relationship start date used by the \"Days Since Our Story Began\" counter so that the counter displays \"64\" (instead of ~\"300\") while keeping the counter behavior live (still computed from the configured start date and current time).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/valentine/config.ts"
+        ],
+        "matchedFiles": [
+          "frontend/src/valentine/config.ts"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/valentine/config.ts",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

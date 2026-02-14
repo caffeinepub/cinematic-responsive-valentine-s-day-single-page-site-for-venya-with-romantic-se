@@ -1,0 +1,23 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Adjust relationship start date so live counter renders 64 days",
+  "requirements": [
+    {
+      "id": "REQ-15",
+      "summary": "Update the configured relationship start date constant so the live Days Since counter currently shows 64 without hard-coding the value.",
+      "acceptanceCriteria": [
+        "In frontend/src/valentine/config.ts, RELATIONSHIP_START_DATE is updated to the correct date such that the counter currently renders 64 in the UI.",
+        "The DaysSinceCounter component continues to compute and render the value from RELATIONSHIP_START_DATE (no hard-coded '64' in the component).",
+        "The section still displays the exact label text: \"Days Since Our Story Began\" and the suffix \"days of love\" with correct singular/plural behavior."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/valentine/config.ts",
+          "operation": "modify",
+          "description": "Change RELATIONSHIP_START_DATE to the correct date (64 days prior to today) so the existing DaysSinceCounter live calculation renders 64, while keeping the value derived from this single configurable constant."
+        }
+      ]
+    }
+  ]
+}

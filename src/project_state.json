@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Valentine’s Day single-page responsive website dedicated to Venya with cinematic romantic design, animated sections, background music toggle, interactive finale, and extra interactive features (counter, gallery, surprise popup).",
+  "architectural_notes": [
+    "Configure the 'Days Since Our Story Began' counter start date constant to 2026-12-12."
+  ],
+  "known_issues": [
+    "“Days Since Our Story Began” section currently displays 300; user requested it be updated to display 64."
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-build-a-fully-responsive-single-page-valentine-s-day-website-dedicated-to-venya-with-a-classy-cinematic-romantic-style-not-childish-using-a-soft-romantic-palette-blush-pink-red-white-with-a-soft-golden-glow-elegant-modern-fonts-soft-shadows-smooth-scrolling-and-gentle-fade-in-scroll-reveal-animations-across-sections",
+      "title": "Build a fully responsive, single-page Valentine’s Day website dedicated to Venya with a classy, cinematic romantic style (not childish), using a soft romantic palette (blush pink, red, white) with a soft golden glow, elegant modern fonts, soft shadows, smooth scrolling, and gentle fade-in/scroll-reveal animations across sections.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-full-screen-hero-section-with-floating-hearts-overlay-and-the-exact-copy-heading-happy-first-valentine-s-day-my-love-subheading-to-my-beautiful-venya-line-my-world-changed-the-day-i-saw-you-add-a-glowing-primary-button-labeled-scroll-down-my-love-that-smoothly-scrolls-to-the-next-section",
+      "title": "Implement a full-screen Hero section with floating hearts overlay and the exact copy: Heading: \"Happy First Valentine’s Day, My Love ❤️\"; Subheading: \"To My Beautiful Venya 💖\"; Line: \"My world changed the day I saw you.\" Add a glowing primary button labeled \"Scroll Down, My Love 💕\" that smoothly scrolls to the next section.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-following-story-sections-in-order-each-with-its-specified-text-and-add-the-described-ambient-visual-treatment-per-section-1-the-day-i-saw-you-with-the-provided-paragraph-and-a-warm-golden-sunset-style-background-2-the-hug-that-felt-like-home-with-the-provided-paragraph-and-a-subtle-heartbeat-animation-in-the-background-3-when-i-held-your-hand-with-the-provided-paragraph-and-soft-sparkles-floating-gently-4-the-kiss-that-felt-like-heaven-with-the-provided-paragraph-and-a-soft-glowing-light-animation-behind-the-section-5-you-are-important-to-me-with-title-the-most-important-person-in-my-life-the-provided-paragraph-and-a-gentle-glowing-effect-around-the-text-6-my-banana-kitten-with-title-my-sweet-banana-kitten-the-provided-paragraph-styled-slightly-playful-but-still-romantic",
+      "title": "Create the following story sections, in order, each with its specified text, and add the described ambient visual treatment per section:\n1) \"✨ The Day I Saw You\" with the provided paragraph and a warm golden sunset-style background.\n2) \"🤗 The Hug That Felt Like Home\" with the provided paragraph and a subtle heartbeat animation in the background.\n3) \"💞 When I Held Your Hand\" with the provided paragraph and soft sparkles floating gently.\n4) \"💋 The Kiss That Felt Like Heaven\" with the provided paragraph and a soft glowing light animation behind the section.\n5) \"💖 You Are Important To Me\" with title \"The Most Important Person in My Life\", the provided paragraph, and a gentle glowing effect around the text.\n6) \"🍌🐱 My Banana Kitten\" with title \"My Sweet Banana Kitten 💛\", the provided paragraph, styled slightly playful but still romantic.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-closing-section-our-first-valentine-just-the-beginning-containing-the-two-provided-paragraphs-plus-the-signature-block-exactly-as-forever-yours-nadhil-add-the-final-footer-line-exactly-you-are-my-today-my-tomorrow-and-my-forever",
+      "title": "Add the closing section \"💖 Our First Valentine — Just the Beginning\" containing the two provided paragraphs, plus the signature block exactly as: \"Forever Yours,\\nAdhil 💖\". Add the final footer line exactly: \"You are my today, my tomorrow, and my forever ❤️\".",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-soft-romantic-instrumental-background-music-with-a-clear-on-off-toggle-that-works-on-mobile-and-desktop-the-default-state-must-not-surprise-play-audio-the-user-must-be-able-to-start-and-stop-playback-the-toggle-state-should-be-visually-indicated",
+      "title": "Implement soft romantic instrumental background music with a clear on/off toggle that works on mobile and desktop. The default state must not surprise-play audio; the user must be able to start and stop playback. The toggle state should be visually indicated.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-final-interactive-section-dramatic-romantic-ending-with-glowing-background-and-floating-hearts-containing-large-heading-venya-and-subheading-will-you-be-my-valentine-forever-plus-two-buttons-labeled-exactly-yes-forever-and-no",
+      "title": "Create the final interactive section (dramatic romantic ending) with glowing background and floating hearts, containing: Large heading \"Venya… 💖\" and subheading \"Will You Be My Valentine Forever? 💍❤️\" plus two buttons labeled exactly: \"YES, FOREVER ❤️\" and \"No 🥺\".",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-yes-forever-button-interaction-on-click-trigger-a-soft-hearts-burst-animation-across-the-screen-slightly-swell-the-romantic-music-temporary-volume-increase-if-music-is-currently-on-and-display-the-message-exactly-you-just-made-me-the-happiest-person-alive-i-promise-to-love-you-forever-adhil",
+      "title": "Implement the \"YES, FOREVER ❤️\" button interaction: on click, trigger a soft hearts burst animation across the screen, slightly swell the romantic music (temporary volume increase) if music is currently ON, and display the message exactly: \"You just made me the happiest person alive. I promise to love you forever. 💖 — Adhil\".",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-no-button-interaction-in-a-playful-non-pressuring-way-either-a-the-button-moves-away-when-the-user-tries-to-click-hover-tap-it-or-b-clicking-shows-the-playful-message-exactly-nice-try-banana-kitten-you-re-stuck-with-me-forever",
+      "title": "Implement the \"No 🥺\" button interaction in a playful, non-pressuring way: either (A) the button moves away when the user tries to click/hover/tap it, or (B) clicking shows the playful message exactly: \"Nice try, Banana Kitten 😌 You’re stuck with me forever ❤️\".",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-days-since-our-story-began-live-counter-feature-that-updates-over-time-on-the-client-provide-a-clear-way-to-set-the-start-date-in-code-single-constant-config-and-display-the-counter-in-a-romantic-styled-component",
+      "title": "Add a \"Days Since Our Story Began\" live counter feature that updates over time on the client. Provide a clear way to set the start date in code (single constant/config) and display the counter in a romantic styled component.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-heart-shaped-photo-gallery-section-that-is-responsive-provide-a-set-of-clearly-labeled-placeholder-slots-and-a-simple-mechanism-to-replace-them-with-real-images-later-e-g-local-static-assets",
+      "title": "Create a heart-shaped photo gallery section that is responsive. Provide a set of clearly labeled placeholder slots and a simple mechanism to replace them with real images later (e.g., local static assets).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-click-for-a-surprise-interaction-that-opens-a-popup-modal-with-a-love-message-the-popup-must-be-dismissible-and-styled-to-match-the-cinematic-romantic-theme",
+      "title": "Add a \"Click for a Surprise 💝\" interaction that opens a popup/modal with a love message. The popup must be dismissible and styled to match the cinematic romantic theme.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-continuous-subtle-floating-animated-hearts-across-the-page-as-an-ambient-effect-with-performance-safeguards-ensuring-content-readability-and-accessibility-including-reduced-motion-handling",
+      "title": "Implement continuous, subtle floating animated hearts across the page as an ambient effect (with performance safeguards), ensuring content readability and accessibility (including reduced-motion handling).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-days-since-our-story-began-counter-start-date-to-12-december-2026-by-changing-the-single-configuration-constant-used-by-the-counter",
+      "title": "Update the \"Days Since Our Story Began\" counter start date to 12 December 2026 by changing the single configuration constant used by the counter.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-populate-the-heart-shaped-photo-gallery-with-the-7-uploaded-images-venya-prompt7-jpg-venya-prompt-jpg-venya-prompt-3-jpg-venya-prompt5-jpg-venya-prompt6-jpg-venyaprompt2-jpg-venya-prompt4-jpg-by-adding-them-as-static-frontend-assets-and-updating-the-gallery-to-render-all-7-images",
+      "title": "Populate the heart-shaped photo gallery with the 7 uploaded images (venya prompt7.jpg, venya prompt.jpg, venya prompt 3.jpg, venya prompt5.jpg, venya prompt6.jpg, venyaprompt2.jpg, venya prompt4.jpg) by adding them as static frontend assets and updating the gallery to render all 7 images.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-configured-relationship-start-date-used-by-the-days-since-our-story-began-counter-so-that-the-counter-displays-64-instead-of-300-while-keeping-the-counter-behavior-live-still-computed-from-the-configured-start-date-and-current-time",
+      "title": "Update the configured relationship start date used by the \"Days Since Our Story Began\" counter so that the counter displays \"64\" (instead of ~\"300\") while keeping the counter behavior live (still computed from the configured start date and current time).",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create fully responsive Valentine’s Day landing page with soft romantic palette, elegant fonts, smooth scrolling, soft shadows, floating hearts, and gentle fade-in animations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Implement background romantic instrumental music with on/off toggle (including slight swell effect on YES interaction)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Build full-screen Hero section with specified headings, line, and glowing 'Scroll Down, My Love' button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add story sections with specified copy and themed visuals/animations: golden sunset background, subtle heartbeat, sparkles, and glowing light effects",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Create playful-but-romantic 'My Banana Kitten' section with specified content and styling",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add closing 'Our First Valentine — Just the Beginning' section with signature and final footer line",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Implement final interactive proposal section with YES/NO buttons: YES triggers heart burst + message + music swell; NO triggers playful avoid-click or playful message",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add 'Days Since Our Story Began' live counter feature",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add heart-shaped photo gallery section/component",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add 'Click for a Surprise' popup love message interaction",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Set 'Days Since Our Story Began' counter start date to 12 December 2026",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Populate the heart-shaped photo gallery with the 7 uploaded photos",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Cinematic, responsive Valentine’s Day single-page site for Venya with romantic sections, animations, music toggle, and interactive finale",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

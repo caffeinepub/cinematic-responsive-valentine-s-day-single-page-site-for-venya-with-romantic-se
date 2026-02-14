@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-configured-relationship-start-date-used-by-the-days-since-our-story-began-counter-so-that-the-counter-displays-64-instead-of-300-while-keeping-the-counter-behavior-live-still-computed-from-the-configured-start-date-and-current-time",
+      "featureTitle": "Update the configured relationship start date used by the \"Days Since Our Story Began\" counter so that the counter displays \"64\" (instead of ~\"300\") while keeping the counter behavior live (still computed from the configured start date and current time).",
+      "files": [
+        "frontend/src/valentine/config.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

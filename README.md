@@ -1,2 +1,3 @@
-# cinematic-responsive-valentine-s-day-single-page-site-for-venya-with-romantic-se
-Exported from Caffeine project: Cinematic, responsive Valentine’s Day single-page site for Venya with romantic sections, animations, music toggle, and interactive finale
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

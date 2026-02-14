@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Update 'Days Since Our Story Began' counter to show 64",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-15",
+      "text": "Update the configured relationship start date used by the \"Days Since Our Story Began\" counter so that the counter displays \"64\" (instead of ~\"300\") while keeping the counter behavior live (still computed from the configured start date and current time).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "recent-messages"
+        ],
+        "quotes": [
+          "\"Days Since Our Story Began\n300\ndays of love\" u have to change \"300\" into \"64\"",
+          "yes and do it"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In frontend/src/valentine/config.ts, RELATIONSHIP_START_DATE is updated to the correct date such that the counter currently renders 64 in the UI.",
+        "The DaysSinceCounter component continues to compute and render the value from RELATIONSHIP_START_DATE (no hard-coded '64' in the component).",
+        "The section still displays the exact label text: \"Days Since Our Story Began\" and the suffix \"days of love\" with correct singular/plural behavior."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, or frontend/src/components/ui.",
+    "Keep the counter implemented as a client-side live counter derived from a single configurable constant."
+  ],
+  "nonGoals": [
+    "Do not change the photo gallery assets or their ordering.",
+    "Do not add new sections, animations, or music behavior changes."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
